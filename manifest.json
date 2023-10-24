@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Blind mode",
+  "description": "Turn your website black so that you test your website as a person without vision",
+  "version": "1.0",
+  "icons": {
+    "16": "images/blind-16.png",
+    "32": "images/blind-32.png",
+    "48": "images/blind-48.png",
+    "128": "images/blind-128.png"
+  },
+  "action": {},
+  "permissions": ["activeTab", "scripting"],
+  "background": {"service_worker": "scripts/background.js"}
+}
